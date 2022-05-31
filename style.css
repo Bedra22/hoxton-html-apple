@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+header{
+    display:inline-block;
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    border-radius: 0px;
+    padding: 20px;
+   
+}
+header ul{
+    list-style-type: none;
+    margin-left: 320px;
+}
+header li{
+    float:left;
+}
+header li a{
+    display: block;
+    color: rgb(167, 167, 167);
+    padding-left:20px;
+}
+header li a:hover{
+    color: rgb(255, 255, 255)
+}
+.belowheader{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: rgb(205, 202, 202); 
+}
+.belowheader img{
+   height:60px;
+   padding-right: 110px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    
+}
+.main1{
+    display: grid;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    padding-top: 50px;
+    
+}
+.main1 h1{
+    font-size: 57px;
+    padding-bottom: 10px;
+    padding-left: 600px;
+}
+.main1 h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-left: 680px;
+
+}
+.main1 ul{
+    list-style-type: none;
+    display:inline;
+    padding-left: 650px;
+    
+}
+.main1 li{
+    float: left;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.main1 li a{
+    color: rgb(45, 45, 157);
+}
+.main1 img{
+    width: 900px;
+    height: 400px;
+    padding-left: 560px;
+}
+.part2{
+    display: grid;
+    background-color: rgb(237, 237, 237);
+    padding-top: 60px;
+    margin-top: 20px;
+}
+.part2 h4{
+    padding-left: 700px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.part2 h1{
+    padding-left: 650px;
+    font-size: 57px;
+    padding-bottom: 10px;
+}
+.part2 p{
+    padding-left: 610px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.part2 ul{
+    list-style-type: none;
+    display: inline;
+    padding-left: 650px;
+}
+.part2 li{
+    float: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.part2 img{
+    width: 1200px;
+    height: 300px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+.part3{
+    display: grid;
+    background-color:rgb(237, 237, 237);
+    margin-top: 20px;
+    position:relative;
+}
+.part3 video{
+    position: relative;
+    width:100%;
+    z-index: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: inline-flex;
+    padding-top: 600px;
+    padding-left: 400px;
+}
+.overlay ul{
+    list-style-type: none;
+}
+.overlay li{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.overlay h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.overlay h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.overlay button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    width:200px;
+    height: 35px;
+    color: black;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;   
+    
+  }
+  .grid-item {
+   border: 10px solid white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .grid-item img{
+    position: relative;
+    height:500px;
+    object-fit: cover;
+    width:100%;
+    z-index: 0; 
+  }
+  
+  .grid-item ul{
+      list-style-type: none;
+      display: inline-block;
+  }
+  
+  
+  .layover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  .lay1 h2{
+      color: whitesmoke;
+      font-size: 50px;
+      padding-top: 350px;
+      padding-left: 40px;
+  }
+  .lay1 p{
+      color: whitesmoke;
+      font-size: 20px;
+      padding-left: 10px;
+  }
+  .lay1 a{
+      padding-left: 40px;
+      font-size: 20px;
+      color: blue;
+  }
+  .lay1 a:hover{
+      color: blueviolet;
+  }
+.lay2{
+    width: 690px;
+    
+}
+.lay2 h4{
+    color: rgb(226, 132, 255);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.lay2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+}.lay2 p{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+.lay2 a{
+    font-size: 20px;
+    color: blue;
+}
+.lay2 a:hover{
+    color: blueviolet;
+}
+.lay3 h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+.lay3 a{
+    font-size: 20px;
+      color: blue;
+}
+.lay3 a:hover{
+    color: blueviolet;
+}
+.lay4 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.lay4 h4{
+    color: red;
+    font-size: 17px;
+    text-align: center;
+}
+.lay4 p{
+    color: black;
+    font-size:20px ;
+}
+
+.lay4 li{
+    float: left;
+   
+}
+.lay4 li a{
+    font-size: 20px;
+      color: blue;
+      text-align: center;
+      padding-right: 15px;    
+}
+.lay4 li a:hover{
+    color: blueviolet;
+}
+.lay5{
+    width:600px;
+    padding-left: 70px;
+}
+.lay5 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.lay5 p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.lay5 li{
+    float:left
+}
+.lay5 li a{
+    font-size: 20px;
+      color: blue;
+      text-align: center;
+      padding-right: 15px;
+}
+.lay5 li a:hover{
+    color: blueviolet;
+}
+.lay6 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.lay6 h3{
+    font-size: 40px;
+    color: red;
+   }
+.lay6 a{
+    font-size: 20px;
+      color: blue;
+      text-align: center;
+}
+.lay6 li a:hover{
+    color: blueviolet;
+}
+  footer{
+      width: 100%;
+      
+      display: flex;
+      justify-content: center;
+      background-color: rgb(237, 237, 237);
+      
+  }
+  .section{
+      width:970px;
+      padding-bottom: 5px; 
+  }
+  .section p{
+      color: rgb(134, 134, 134);
+  }
+  .footer-container{
+    display: flex;
+    margin: 8px;
+}
+.footer-list {
+    float: left;
+    width: 20%; 
+      
+}
+
+.footer-list p a {
+    color: rgb(134, 134, 134);
+}
+
+.footer-list p a:hover {
+    color:black;
+
+}
+
+
+
+.footer-container2{
+    display: flex;
+    margin: 8px;
+}
+.footer-list {
+    float: left;
+    width: 20%; 
+      
+}
+
+.footer-list p a {
+    color: rgb(134, 134, 134);
+}
+
+.footer-list p a:hover {
+    color:black;
+}
